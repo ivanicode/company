@@ -1,3 +1,15 @@
 .nav-bar {
- background-color: black
+    width: 100%;
+    display: inline;
+    display: inline-block;
+}
+ul {
+    list-style-type: none;
+    float: right;
+}
+  ul > li {
+    display: inline;
+}
+.nav {
+    display: inline-block;
 }

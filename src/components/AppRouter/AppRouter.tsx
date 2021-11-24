@@ -12,7 +12,6 @@ console.log(process.env.PUBLIC_URL)
 
 const style = {
     backgroundImage: `url(${background})`,
-    border: '1px solid red',
     backgroundSize: "cover"
 }
 function AppRouter(){

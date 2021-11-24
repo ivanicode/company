@@ -4,12 +4,12 @@ import './navBar.css'
 
 function NavBar() {
     return (
-        
         <div className="nav-bar">
             <div>
                 Logo
             </div>
-            <nav>
+            <div>
+            <nav className="nav">
                 <ul>
                     <li><NavLink to="/">Home</NavLink></li>
                     <li><NavLink to="/about">About</NavLink></li>
@@ -18,6 +18,7 @@ function NavBar() {
                     <li><NavLink to="/contact">Contact</NavLink></li>
                 </ul>
             </nav>
+            </div>
         </div>
     )
 }
