@@ -1,6 +1,9 @@
-.app {
-    background-color: #192942;
-}
 .components {
    height: 700px;
+}
+
+.background {
+    border: 1px solid yellow;
+    width: 100%;
+    margin: 20px 20% 20px 20%;
 }

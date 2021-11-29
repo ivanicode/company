@@ -5,7 +5,7 @@ import './navBar.css'
 function NavBar() {
     return (
         <div className="nav-bar">
-            <div>
+            <div className="logo">
                 Logo
             </div>
             <div>

@@ -1,7 +1,9 @@
 .nav-bar {
+    display: grid;
+    border: 1px solid black;
+    flex-direction: row;
     width: 100%;
-    display: inline;
-    display: inline-block;
+    grid-template-columns: 30% 70%;
 }
 ul {
     list-style-type: none;
@@ -12,4 +14,11 @@ ul {
 }
 .nav {
     display: inline-block;
+    border: 1px solid red;
+    height: 100%;
+    width: 100%;
+}
+
+.logo {
+    border: 1px solid blue
 }
