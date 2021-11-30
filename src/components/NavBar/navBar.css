@@ -1,24 +1,26 @@
 .nav-bar {
     display: grid;
-    border: 1px solid black;
     flex-direction: row;
     width: 100%;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 20% 80%;
+    padding-left: 10%;
 }
 ul {
     list-style-type: none;
     float: right;
+    padding-right: 30%;
 }
   ul > li {
     display: inline;
 }
 .nav {
     display: inline-block;
-    border: 1px solid red;
     height: 100%;
     width: 100%;
+    padding-top: 7%;
 }
 
-.logo {
-    border: 1px solid blue
+.nav-link {
+    text-decoration: none;
+    margin-right: 35px;
 }
