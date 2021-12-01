@@ -10,7 +10,8 @@ ul {
     float: right;
     width: 100%;
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-columns: 18% 18% 18% 18% 18%;
+    text-shadow: 2px 2px 3px white;
 }
   ul > li {
     display: inline;
@@ -26,12 +27,11 @@ ul {
 
 .nav-link {
     text-decoration: none;
-    color: black;
+    color: rgb(119, 88, 160);
+    font-size: 20px;
 }
 
 .nav-link:hover{
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 3px;
+    font-size: 27px;
     position: relative;
 }
