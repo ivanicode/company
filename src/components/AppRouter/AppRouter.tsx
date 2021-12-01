@@ -17,6 +17,7 @@ const style = {
 }
 function AppRouter(){
     return (
+        
         <div style={style} className="app">
             <div className="background">
                 <NavBar />

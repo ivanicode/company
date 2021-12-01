@@ -1,14 +1,16 @@
+
 .nav-bar {
     display: grid;
     flex-direction: row;
     width: 100%;
     grid-template-columns: 20% 80%;
-    padding-left: 10%;
 }
 ul {
     list-style-type: none;
     float: right;
-    padding-right: 30%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
 }
   ul > li {
     display: inline;
@@ -18,9 +20,18 @@ ul {
     height: 100%;
     width: 100%;
     padding-top: 7%;
+    text-align: center;
+    margin-left: 5%;
 }
 
 .nav-link {
     text-decoration: none;
-    margin-right: 35px;
+    color: black;
+}
+
+.nav-link:hover{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    position: relative;
 }
