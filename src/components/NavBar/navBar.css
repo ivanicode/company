@@ -1,15 +1,37 @@
+
 .nav-bar {
+    display: grid;
+    flex-direction: row;
     width: 100%;
-    display: inline;
-    display: inline-block;
+    grid-template-columns: 20% 80%;
 }
 ul {
     list-style-type: none;
     float: right;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
 }
   ul > li {
     display: inline;
 }
 .nav {
     display: inline-block;
+    height: 100%;
+    width: 100%;
+    padding-top: 7%;
+    text-align: center;
+    margin-left: 5%;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link:hover{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    position: relative;
 }
